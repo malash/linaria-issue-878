@@ -27,7 +27,7 @@ module.exports = {
           // un-comment this line to fix the issue
           // { loader: require.resolve("./bugfix/replaceRequireRequestLoader") },
           {
-            loader: "linaria/loader",
+            loader: "@linaria/webpack-loader",
             options: { sourceMap: dev },
           },
         ],
